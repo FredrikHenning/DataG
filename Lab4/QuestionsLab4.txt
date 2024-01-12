@@ -1,0 +1,35 @@
+Lab 4 - Questions
+
+Q1: Changing the focal distance variable will basicaly change the
+	frame of view (fov). When increasing the varible everything 
+	will seem closer to the camera and decreasing everything will
+	seem farther away and more apart.
+	(One can also be more specific, if it works like an 
+	actual camera then the longer distance between the 
+	focal point and the sensor the smaller the angle of
+	view will be. If the frame your looking at is the same
+	size the objects will seem closer)
+	https://www.baph.co.uk/blog/understanding-focal-length
+
+Q2:	One of the solution you brought up in the lectures is to 
+	cast a bunch of rays/pixel and then compute the average
+	instead of one ray.
+
+Q3:	When MAX_DEPTH is at 1 the reflective material does not
+	reflect anything and the refracting one is not "see through"
+	(does not refract). Both balls have their normal colour.
+
+	When its at 2 both objects do what they intended to do in 
+	the eyes of the camera. The reflective material does 
+	not pick up that the refracting is is a refracted object. 
+	Meaning its not "see through" in the eyes of the 
+	reflective material. And the small reflective property
+	the refracting material has does not pick up the red ball
+
+	When its at 3 the refractive material is seen as such
+	in the eyes of the reflective. 
+	The red ball is picked up in the reflection of the refracting
+	object but not from the reflecting object->refracting->red ball
+
+	At 5 if we are really picky the seen does not change what
+	I can see.  

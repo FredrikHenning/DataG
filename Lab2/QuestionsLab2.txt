@@ -1,0 +1,13 @@
+Questions - Lab2
+
+Q1:	It return quite a low value on all since max
+	value on them 1.0 then if it's divided with
+	PI it's deemed to be small which turnes the seen very
+	dark. 
+	Values are R: 0,318471
+			G: 0,318471
+			B: 0		//Since albedo was put(1.0, 1.0, 0.0)
+
+Q2: The values are the same. See PNG file "Q2_Graph"
+
+Q3: See PNG file "Q3_Graph"
